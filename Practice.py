@@ -40,3 +40,4 @@ for key, val in counts.items():  # 将counts转换成元组列表
 lst = sorted(lst, reverse=True)  # 降序
 for val, key in lst[:10]:
     print(key, val)
+list(map(lambda x, y: str(x)+'_'+y, range(5), list('abcde')))
